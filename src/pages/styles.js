@@ -6,8 +6,12 @@ export const ProductsList = styled.div`
   flex-direction: column;
   /* gap: 20px; */
   padding: 40px;
-  width: 80%;
+  /* width: 90%; */
   margin: 0 auto;
+
+  > h1 {
+    margin-bottom: 20px;
+  }
 `
 
 export const FormContainer = styled.form`

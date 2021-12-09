@@ -1,1 +1,1 @@
-export const baseURL = 'url'
+export const baseURL = 'https://case-shopper.herokuapp.com'

@@ -4,7 +4,7 @@ import Logo from "../../assets/og-logo.png"
 
 import { GeneralContainer, BoxLogo } from "./styles"
 
-function Header() {
+const Header = () => {
   
     return (
       <GeneralContainer>
