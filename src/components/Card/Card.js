@@ -5,10 +5,10 @@ const Card = (props) => {
     return (
         <Container>
             <DataContainer>
-                <Name>{props.product.name}</Name>
-                <Stock>Estoque Disponível: <strong>{props.product.qtyStock}</strong></Stock>
+                <Name>{props.name}</Name>
+                <Stock>Estoque Disponível: <strong>{props.qtyStock}</strong></Stock>
             </DataContainer>
-            <Button>Comprar</Button>
+            <Button onClick={() => props.addToCart(props.product)}>Comprar</Button>
         </Container>
     )
 }

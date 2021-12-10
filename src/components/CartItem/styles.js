@@ -4,9 +4,10 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    height: 80px;
-    margin: 10px;
-    padding: 10px;
+    width: 97%;
+    /* height: 60px; */
+    margin: 5px;
+    padding: 10px 5px;
     border-radius: 5px;
     background-color: white;
 `
@@ -17,19 +18,20 @@ export const DataContainer = styled.div`
     justify-content: space-around;
 `
 
+export const DetailsContainer = styled.div`
+    display: flex;
+    margin-top: 5px;
+    > p {
+        font-size: 0.8rem;
+        margin-right: 30px;
+    }
+`
+
 export const Name = styled.p`
     font-size: 0.9rem;
 `
 
 export const Stock = styled.p`
-    font-size: 0.8rem;
+    
     /* margin-top: 10px; */
-`
-
-export const Button = styled.button`
-    padding: 5px;
-    width: 65px;
-    height: 40px;
-    margin-top: 10px;
-    cursor: pointer;
 `
