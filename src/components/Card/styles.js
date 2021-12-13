@@ -5,10 +5,15 @@ export const Container = styled.div`
     justify-content: space-between;
     border: 1px solid black;
     height: 80px;
+    width: 800px;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     background-color: white;
+
+    @media screen and (max-width: 1280px) {
+    max-width: 530px;
+  }
 `
 
 export const DataContainer = styled.div`
