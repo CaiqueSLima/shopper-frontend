@@ -8,6 +8,7 @@ export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   margin-top: 15px;
+  
   > label {
     margin: 15px;
     align-self: center;

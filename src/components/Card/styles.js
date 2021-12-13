@@ -12,8 +12,8 @@ export const Container = styled.div`
     background-color: white;
 
     @media screen and (max-width: 1280px) {
-    max-width: 530px;
-  }
+        max-width: 530px;
+    }
 `
 
 export const DataContainer = styled.div`
@@ -28,7 +28,6 @@ export const Name = styled.p`
 
 export const Stock = styled.p`
     font-size: 0.8rem;
-    /* margin-top: 10px; */
 `
 
 export const Button = styled.button`

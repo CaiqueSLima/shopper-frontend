@@ -5,6 +5,7 @@ import Header from "../components/Header/Header"
 import { baseURL } from "../constants/baseURL"
 import useForm from "../hooks/useForm"
 import CartItem from "../components/CartItem/CartItem"
+import Swal from "sweetalert2"
 import { 
     Cart,
     CartContainer,
@@ -17,7 +18,6 @@ import {
     PlaceOrder,
     ProductsList 
 } from "./styles"
-import Swal from "sweetalert2"
 
 const MainPage = () => {
 
@@ -42,7 +42,6 @@ const MainPage = () => {
     }
 
     const addToCart = (product) => {
-
         const isInCart = productsInCart.find(element => product.id === element.id)
 
         if (isInCart) {
@@ -94,7 +93,6 @@ const MainPage = () => {
     }
 
     const sendOrder = () => {
-
         const products = productsInCart.map(product => {
             return {
                 id: product.id,

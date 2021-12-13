@@ -5,9 +5,7 @@ import { BiTrash } from 'react-icons/bi'
 export const Container = styled.div`
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid black; */
     width: 97%;
-    /* height: 60px; */
     margin: 5px;
     padding: 10px 5px;
     border-radius: 5px;
@@ -23,6 +21,7 @@ export const DataContainer = styled.div`
 export const DetailsContainer = styled.div`
     display: flex;
     margin-top: 5px;
+
     > p {
         font-size: 0.8rem;
         margin-right: 15px;
@@ -42,6 +41,7 @@ export const PlusIcon = styled(AiOutlinePlus)`
     font-size: 1.2rem;
     cursor: pointer;
     transition: font-size 0.2s;
+
     &:hover {
         font-size: 1.5rem;
     }
@@ -52,6 +52,7 @@ export const MinusIcon = styled(AiOutlineMinus)`
     cursor: pointer;
     margin-left: 10px;
     transition: font-size 0.2s;
+
     &:hover {
         font-size: 1.5rem;
     }
@@ -62,12 +63,8 @@ export const TrashIcon = styled(BiTrash)`
     cursor: pointer;
     margin-left: 10px;
     transition: font-size 0.2s;
+
     &:hover {
         font-size: 1.5rem;
     }
-`
-
-export const Stock = styled.p`
-    
-    /* margin-top: 10px; */
 `
