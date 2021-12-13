@@ -23,6 +23,11 @@ export const FormContainer = styled.form`
 export const DataContainer = styled.div`
   display: flex;
   justify-content: space-around;
+
+  @media screen and (min-width: 1440px) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 `
 
 export const ProductsList = styled.div`
@@ -107,7 +112,7 @@ export const PlaceOrder = styled.button`
     box-shadow: 2px 2px 2px lightgray;
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1280px) and (max-height: 720px) {
     top: 600px;
   }
 `
